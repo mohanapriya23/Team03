@@ -1,0 +1,358 @@
+body {
+	
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+}
+#backgroundimage
+{
+	background-image: url('Resources/pic.png');
+	
+
+ 
+
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+	background: #003998;
+	height:100px;
+	
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-start;
+}
+.navbar-collapse2{
+	justify-content: flex-end;
+	display:inline;
+}
+
+
+/*--- header ---*/
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 25%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.description h1 {
+	color: #0779B9;
+}
+
+.description h2{
+	color: #0779B9;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+	
+	
+}
+
+.feature-title {
+	color: black;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+
+.features .btn {
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.features .btn:hover {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+/*--- footer ---*/
+
+
+
+/*--- media queries ---*/
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+	
+	.description h1 {
+		font-size: 2em;
+	}
+	
+	.description p {
+		font-size: 1.2rem;
+	}
+	
+	.features {
+		margin: 0;
+	}
+
+}
+
+
+/*--- footer ---*/
+
+.page-footer {
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:75px;
+	background-color: #003998;;
+	color: white;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+#sn
+{
+	margin-bottom:15px;
+	margin-top:15px;
+}
+#an{
+	margin-top:15px;
+}
+#1
+{
+	
+		display:inline-block;
+	position:absolute;
+	top:30%;
+	left:10%;
+}
+.button{
+	text-align:center;
+
+	padding:15px 32px;
+}
+/*--- media queries ---*/
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+	
+	.description h1 {
+		font-size: 2em;
+	}
+	
+	.description p {
+		font-size: 1.2rem;
+	}
+	
+	.features {
+		margin: 0;
+	}
+
+}
+
+/*--- login ---*/
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 5px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0779B9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.login
+{
+	color:#0779B9;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+ /*------ scroll image home--- */
+ 
+ 
+ #carouselExampleIndicators{
+  width: 100%;
+  border: 0px solid green;
+  height:300px;
+  padding: 0px;
+  margin-top: 200px;
+}
+
+
+
+
+
+/*--footer*/
+#sticky-footer {
+  flex-shrink: none;
+  
+}
+/*--- footer ---*/
+
+.page-footer {
+	
+	background-color: #000000;
+	
+	padding: 20px 0 40px;
+}
+
+.footer-copyright {
+	color: #666;
+	
+}
+#image-op{
+	  opacity: 0.3;
+  filter: alpha(opacity=50);
+  }
+
+
+#footer-image{
+		width:30px;
+		height:30px;
+		margin-right: 1em;
+}
+
+.nav-link:hover{
+	color:#ffffff;
+}
+
+.split {
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#LoginForm{
+	width: 700px;
+}
+
+
+
+
