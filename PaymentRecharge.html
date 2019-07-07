@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Bootstrap Tutorial Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="maincss.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  </head>
+<body id="backgroundimage">
+
+
+<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="home.html">VoizFonica<!-- <img src="Resources/vf2.png" alt="HTML tutorial" style="width:50px;height:50px;border:0;"> --></a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="paymentRecharge.html">PAYMENT AND RECHARGE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="plans.html">PACK AND OFFERS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="signup.html">APPLY FOR CONNECTION</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="dashboard.html">DASHBOARD</a>
+				</li>
+				<li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                </li>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<li class="nav-item">
+					<a class="nav-link" href="login.html" align="right">LOGIN</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</nav>
+	
+	<div class="container">
+    <div class="page-header">
+        
+    </div>
+    <div class="row grid-divider">
+    <div class="col-sm-4">
+      <div class="col-padding">
+        <h3><b>Payment and Recharge</b></h3>
+      	  <!-- button type="button" class="btn btn-success btn-lg">Pay Bills</button>
+		  <button type="button" class="btn btn-success btn-lg">Recharge</button> -->
+		  <img src="Resources/payment.png" class="justify-center">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="col-padding">
+        <h3 align="center"><b>Pay bills</b></h3>
+         <button type="button" id="Post" class="btn btn-success btn-lg" onclick="myFunction()">Postpaid bill</button>
+		 
+		  <button type="button" id="DongBill" class="btn btn-success btn-lg" onclick="myFunction()">Dongle bill </button>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="col-padding">
+        <h3 align="center"><b>Recharge</b></h3>
+        <form action="www.google.com" class="formstyle">
+	
+		  <b>Referral Code:</b>
+  <input  type="text" name="firstname" placeholder="#code" value="">
+  
+  
+		  <b>Amount:</b>
+  <input  type="text" name="plan" placeholder="tariff plan">
+ 
+
+  <button type="button" id="PayBut" class="btn btn-success btn-lg format2" onclick="myFunction()"> Pay</button>
+</form> 
+		</div>
+    </div>
+    </div>
+
+</div>
+	
+	<footer id = "footer" name = "footer">
+<section>
+  <ul id="services">
+    <h2>Contact Us</h2>
+    <li>
+      <div class="facebook">
+        <a href="https://facebook.com/colorlib/">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <span>Facebook</span>
+    </li>
+    <li>
+      <div class="twitter">
+        <a href="https://twitter.com/colorlib/">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+      <span>Twitter</span>
+    </li>
+    <li>
+      <div class="youtube">
+        <a href="https://www.youtube.com/c/Colorlib">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+      </div>
+      <span>YouTube</span>
+    </li>
+    
+    <li>
+      <div class="e-mail">
+        <a href="https://www.linkedin.com/company/colorlib">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+      </div>
+      <span>e-mail</span>
+    </li>
+  </ul>
+</section>
+</footer>
+	
+<script type="text/javascript">
+    document.getElementById("Post").onclick = function () {
+        location.href = "gateway.html";
+    };
+	document.getElementById("DongBill").onclick = function () {
+        location.href = "plans.html";
+    };
+	document.getElementById("PayBut").onclick = function () {
+        location.href = "gateway.html";
+    };
+</script>
+	
+
+
+	<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
